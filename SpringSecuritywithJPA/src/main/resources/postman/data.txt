@@ -1,0 +1,47 @@
+## ADMIN
+{
+	"hero_id":1,
+	"name":"NickFury",
+	"password": "nfury",
+	"email" : "nick.fury@marvel.com",
+	"superRoles" : [{
+				"role": "ADMIN"
+			}]
+
+}
+
+## HERO
+{
+	"hero_id":2,
+	"name":"Captain",
+	"password": "camercia",
+	"email" : "captain.america@marvel.com",
+	"superRoles" : [{
+				"role": "SUPERHERO"
+			}]
+
+}
+
+{
+	"hero_id":3,
+	"name":"thor",
+	"password": "storm",
+	"email" : "thor@marvel.com",
+    "rating": "4",
+	"superRoles" : [{
+				"role": "SUPERHERO"
+			}]
+
+}
+
+{
+	"hero_id":4,
+	"name":"hulk",
+	"password": "smash",
+	"email" : "hulk@marvel.com",
+    "rating": "4",
+	"superRoles" : [{
+				"role": "SUPERHERO"
+			}]
+
+}
