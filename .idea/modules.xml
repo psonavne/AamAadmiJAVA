@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ZipKin.iml" filepath="$PROJECT_DIR$/ZipKin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/AamAadmiJAVA.iml" filepath="$PROJECT_DIR$/.idea/AamAadmiJAVA.iml" />
     </modules>
   </component>
 </project>
