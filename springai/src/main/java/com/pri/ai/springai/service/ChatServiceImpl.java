@@ -12,11 +12,12 @@ public class ChatServiceImpl implements ChatService{
     OpenAiClient aiClient;
 
     @Override
-    public String getResponse(String prompt){
-
-       String response= aiClient.generate(prompt + LIMIT_CHARACTER);
-       System.out.println("AI Response: " + response);
-       return response;
+    public String getResponse(String prompt) {
+        aiClient.setModel("gpt-4");
+        aiClient.setTemperature(0D);
+        String response = aiClient.generate(prompt + LIMIT_CHARACTER);
+        System.out.println("AI Response: " + response);
+        return response;
     }
 
 }
