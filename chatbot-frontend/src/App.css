@@ -1,0 +1,97 @@
+.chat-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; /* Keep column direction */
+  height: 70vh;
+}
+
+.chat-display {
+  flex-grow: 1;
+  padding: 10px;
+  overflow-y: auto;
+  overflow-x: auto;
+  background-color: #f9f9f9;
+}
+
+.message {
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  clear: both;
+}
+
+.message.user {
+  background-color: #e0f7fa;
+  align-self: flex-end;
+}
+
+.message.bot {
+  background-color: #f0f4c3;
+  align-self: flex-start;
+}
+
+.data-actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.data-actions button {
+  padding: 8px 10px; /* Adjust padding for icons */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 1em; /* Adjust icon size */
+  line-height: 1; /* Adjust line height for icon centering */
+}
+
+.data-actions button:hover {
+  background-color: #0056b3;
+}
+
+.data-actions button i {
+  /* Style your icons here if needed */
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.bot-text {
+  margin-top: 5px;
+}
+
+.chat-input-area { /* Style for the input area at the bottom */
+  padding: 10px;
+  display: flex;
+  border-top: 1px solid #ccc;
+}
+
+.chat-input-area input {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.chat-input-area button {
+  padding: 8px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.chat-input-area button:hover {
+  background-color: #45a049;
+}
