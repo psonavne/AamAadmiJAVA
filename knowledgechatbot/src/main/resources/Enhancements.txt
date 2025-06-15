@@ -1,0 +1,8 @@
+#Additional improvements / enhancements
+
+1. Multiple user session - by using session id we can maintain multiple conversation
+2. Enhance RAG pattern to improve conversation follow up:
+    a. by LLM query re-writing which will call LLM to expand user query using conversation history
+    b. Robust RAG prompt template
+    c. Conditional RAG
+ 3. Switching to cost-efficient and privacy by using local model gemma3 and mxbai-embed-large for embedding
