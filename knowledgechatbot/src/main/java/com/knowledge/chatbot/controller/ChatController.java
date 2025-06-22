@@ -24,4 +24,14 @@ public class ChatController {
     public String ask(@RequestParam(value = "prompt", defaultValue = "What is Spring AI?") String prompt) {
         return chatService.getChatResponse(prompt);
     }
+
+   /* @GetMapping("/ask/v2")
+    public String askV2(@RequestParam(value = "prompt", defaultValue = "What is Spring AI?") String prompt) {
+        return chatService.chat(prompt);
+    }*/
+
+    @GetMapping("/ask/v2")
+    public String askV2(@RequestParam(value = "prompt", defaultValue = "What is Spring AI?") String prompt) {
+        return chatService.chat(prompt);
+    }
 }

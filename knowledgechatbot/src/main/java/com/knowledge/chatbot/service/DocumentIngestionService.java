@@ -6,4 +6,8 @@ public interface DocumentIngestionService {
     String ingestDocument(MultipartFile file);
 
     String ingestUrl(String url);
+
+    void ingestPredefinedDocuments();
+
+    void ingestContent(String content, String source);
 }
